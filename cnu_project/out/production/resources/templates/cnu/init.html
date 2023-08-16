@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Initialize Data</title>
+</head>
+<body>
+<h1>Initialize Data</h1>
+<form th:action="@{/templates/cnu/init}" method="get">
+  <button type="submit">Initialize</button>
+</form>
+<p><a th:href="@{/templates/cnu/departments}">View Departments</a></p>
+</body>
+</html>
